@@ -33,3 +33,22 @@ github "sudo",       "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "chrome", "1.1.0"
+github "firefox", "1.0.6"
+github "phpstorm", "v6.0.1"
+github "textwrangler", "1.0.0"
+github "sourcetree", "0.0.2"
+github "skype", "1.0.2"
+github "notational_velocity", "1.1.0"
+github "wget", "1.0.0"
+github "sparrow", "1.0.0"
+github "colloquy", "1.0.0"
+github "onepassword", "1.0.0"
+github "mysql", "1.1.0"
+github "autoconf", "1.0.0"
+github "libtool", "1.0.0"
+github "pkgconfig", "1.0.0"
+github "pcre", "1.0.0"
+github "php", "0.5.6"
+
