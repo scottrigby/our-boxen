@@ -56,25 +56,25 @@ node default {
   include nginx
 
   # custom
-  include chrome
+  #include chrome
   include firefox
-  include phpstorm
-  include textwrangler
-  include sourcetree
-  include skype  
-  include include notational_velocity::nvalt
-  include wget
-  include sparrow
-  include colloquy
-  include onepassword
-  include mysql
+  #include phpstorm
+  #include textwrangler
+  #include sourcetree
+  #include skype  
+  #include include notational_velocity::nvalt
+  #include wget
+  #include sparrow
+  #include colloquy
+  #include onepassword
+  #include mysql
   #mysql::db { 'mydb': }
-  include autoconf
-  include libtool
-  include pkgconfig
-  include pcre
-  include php::5_4
-  include php::5_3
+  #include autoconf
+  #include libtool
+  #include pkgconfig
+  #include pcre
+  #include php::5_4
+  #include php::5_3
   # Install a php version and set as the global default php
   #class { 'php::global':
   #  version => '5.3.10'
