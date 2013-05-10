@@ -68,7 +68,7 @@ node default {
   include colloquy
   include onepassword
   include mysql
-  mysql::db { 'mydb': }
+  #mysql::db { 'mydb': }
   include autoconf
   include libtool
   include pkgconfig
