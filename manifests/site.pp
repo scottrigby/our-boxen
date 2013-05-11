@@ -67,8 +67,8 @@ node default {
   #include sparrow
   include colloquy
   include onepassword
-  #include mysql
-  #mysql::db { 'mydb': }
+  include mysql
+  mysql::db { 'mydb': }
   #include autoconf
   #include libtool
   #include pkgconfig
