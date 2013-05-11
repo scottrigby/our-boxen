@@ -79,6 +79,7 @@ node default {
   class { 'php::global':
     version => '5.3.10'
   }
+  include apache
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

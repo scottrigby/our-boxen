@@ -51,4 +51,5 @@ github "libtool", "1.0.0"
 github "pkgconfig", "1.0.0"
 github "pcre", "1.0.0"
 github "php", "0.5.6"
+github "apache", "0.0.1", :repo => "mattheath/puppet-apache"
 
