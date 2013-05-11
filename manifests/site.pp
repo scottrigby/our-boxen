@@ -58,7 +58,7 @@ node default {
   # custom
   #include chrome
   include firefox
-  #include phpstorm
+  include phpstorm
   #include textwrangler
   #include sourcetree
   #include skype  

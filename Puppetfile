@@ -36,7 +36,7 @@ github "sudo",       "1.0.0"
 
 #github "chrome", "1.1.0"
 github "firefox", "1.0.6"
-#github "phpstorm", "v6.0.1"
+github "phpstorm", "v6.0.1"
 #github "textwrangler", "1.0.0"
 #github "sourcetree", "0.0.2"
 #github "skype", "1.0.2"
