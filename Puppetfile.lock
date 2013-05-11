@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (2.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-colloquy
   specs:
     colloquy (1.0.0)
@@ -69,9 +74,19 @@ GITHUBTARBALL
     ruby (4.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-textwrangler
+  specs:
+    textwrangler (1.0.0)
 
 GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
@@ -85,6 +100,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 2.1.0)
+  chrome (= 1.1.0)
   colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   firefox (= 1.0.6)
@@ -99,6 +115,8 @@ DEPENDENCIES
   phpstorm (= 1.0.3)
   repository (= 2.0.2)
   ruby (= 4.1.0)
+  skype (= 1.0.2)
   stdlib (= 4.0.2)
   sudo (= 1.0.0)
+  textwrangler (= 1.0.0)
 
