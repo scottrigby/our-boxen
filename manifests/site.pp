@@ -69,16 +69,16 @@ node default {
   include onepassword
   include mysql
   mysql::db { 'mydb': }
-  #include autoconf
-  #include libtool
-  #include pkgconfig
-  #include pcre
-  #include php::5_4
-  #include php::5_3
-  # Install a php version and set as the global default php
-  #class { 'php::global':
-  #  version => '5.3.10'
-  #}
+  include autoconf
+  include libtool
+  include pkgconfig
+  include pcre
+  include php::5_4
+  include php::5_3
+  # Install a php version and set as the global default php.
+  class { 'php::global':
+    version => '5.3.10'
+  }
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
