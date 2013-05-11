@@ -56,16 +56,16 @@ node default {
   include nginx
 
   # custom
-  #include chrome
+  include chrome
   include firefox
-  #include phpstorm
-  #include textwrangler
+  include phpstorm
+  include textwrangler
   #include sourcetree
-  #include skype  
+  include skype  
   #include include notational_velocity::nvalt
   #include wget
   #include sparrow
-  #include colloquy
+  include colloquy
   include onepassword
   #include mysql
   #mysql::db { 'mydb': }
