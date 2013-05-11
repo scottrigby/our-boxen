@@ -60,10 +60,10 @@ node default {
   include firefox
   include phpstorm
   include textwrangler
-  #include sourcetree
+  include sourcetree
   include skype  
-  #include include notational_velocity::nvalt
-  #include wget
+  include include notational_velocity::nvalt
+  include wget
   #include sparrow
   include colloquy
   include onepassword
