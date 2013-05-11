@@ -62,7 +62,7 @@ node default {
   include textwrangler
   include sourcetree
   include skype  
-  include include notational_velocity::nvalt
+  include notational_velocity::nvalt
   include wget
   #include sparrow
   include colloquy
